@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dashlane.fragment.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home2_to_card"
+            app:destination="@id/cardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.dashlane.fragment.Card"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card">
+        <action
+            android:id="@+id/action_card_to_passwordGenerate"
+            app:destination="@id/passwordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.example.dashlane.fragment.PasswordGenerate"
+        android:label="fragment_password_generate"
+        tools:layout="@layout/fragment_password_generate">
+        <action
+            android:id="@+id/action_passwordGenerate_to_setting"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.dashlane.fragment.Setting"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.dashlane.fragment.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.dashlane.fragment.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+
+    <fragment
+        android:id="@+id/addCardDetails"
+        android:name="com.example.dashlane.fragment.AddCardDetails"
+        android:label="fragment_add_card_details"
+        tools:layout="@layout/fragment_add_card_details" />
+</navigation>

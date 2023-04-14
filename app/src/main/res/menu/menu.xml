@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_icon"
+        android:iconTint="@color/black"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/cardFragment"
+        android:icon="@drawable/credit_card"
+        android:iconTint="@color/black"
+        android:title="@string/card" />
+
+    <item
+        android:id="@+id/passwordFragment"
+        android:iconTint="@color/black"
+        android:icon="@drawable/generate_password"
+        android:title="@string/generate_password" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:iconTint="@color/black"
+        android:icon="@drawable/setting"
+        android:title="@string/settings" />
+
+</menu>

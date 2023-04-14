@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DashLane</string>
+    <string name="card">Card</string>
+    <string name="generate_password">Generate Password</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="include_uppercase_letters">Include Uppercase Letters</string>
+    <string name="negative_option">Negative option</string>
 </resources>
